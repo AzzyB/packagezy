@@ -11,20 +11,20 @@ A package handler script by Azzy
     that will parse and generate a log file
     of all your systems packages and allow
     you to use that file to reinstall them
-    when doing a system update or change.
+    when doing a system version change.
     The script should also handle the
     install commands utilizing the native
     package manager of a given system.
 
 # Notes:
-    This script has NOT been tested on
-    very many distros, use case may vary.
+    This script is meant to be used on
+    the same distro, so use case may vary.
     When reinstalling packages be sure to
     have the script AND the log file in
     the SAME directory of a given system.
     Yes, the arguments passed to the script
     are case sensative and you may need
-    sudo privilege.
+    sudo privilege. 
 
 # Usage
     1.) Make executable: chmod +x Packagezy
