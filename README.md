@@ -1,12 +1,12 @@
-***********Packagezy************
+## Packagezy
 
 A package handler script by Azzy
 
-********************************
-# Version:
+
+#### Version:
     1.0.0
 
-# Desc:
+#### Desc:
     This is a short and simple bash script
     that will parse and generate a log file
     of all your systems packages and allow
@@ -16,7 +16,7 @@ A package handler script by Azzy
     install commands utilizing the native
     package manager of a given system.
 
-# Notes:
+#### Notes:
     This script is meant to be used on
     the same distro, so use case may vary.
     When reinstalling packages be sure to
@@ -26,7 +26,7 @@ A package handler script by Azzy
     are case sensative and you may need
     sudo privilege. 
 
-# Usage
+#### Usage
     1.) Make executable: chmod +x Packagezy
     2.) Generate log: ./Packagezy log
     3.) Reinstall packages: ./Packagezy install
