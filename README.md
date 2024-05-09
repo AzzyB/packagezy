@@ -1,4 +1,5 @@
-# Packagezy - Azzy's system package management tool!
+# Packagezy 
+## Azzy's system package management tool!
 
 ![Packagezt GUI](packagezy_menu.png)
 
