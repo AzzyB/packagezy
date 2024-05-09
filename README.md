@@ -1,25 +1,21 @@
-# UNDERGOING REWORK   
+# Project Title
 
+Packagezy - Azzy's system package management tool!
 
-## Packagezy
+## Description
 
-A package handler script by Azzy
+Packagezy is just a simple bash script to help one manage their system packages in one place. It spawned from my constant distro hopping and upgrading of one distro to another or versions of a distro itself. Reinstalling my favorite packages became a task and I'd usually just use a list of my favorite packages and a few commands. Eventually I started doing this very often with my headless servers as well. Over time I just wanted to make a script that would handle it a little easier for me in the terminal and potentially automated down the line, hence this little project.
 
+### Installing
 
-#### Version:
-    1.0.0
+* Just download and add execute permission (```chmod +x```) to main.sh and run it (```./main.sh```) 
+* Place it in a place where you're okay with it sitting as I don't have a proper install/PATH edit procedure yet
 
-#### Desc:
-    This is a short and simple bash script that will parse and generate a log file of all your systems 
-    packages and allow you to use that file to reinstall them when doing a system version change. 
-    The script should also handle the install commands utilizing the native package manager of a given system.
+## Version History
 
-#### Notes:
-    This script is meant to be used of the same distro, so use case may vary. When reinstalling 
-    packages be sure to have the script AND the log file in the SAME directory of a given system. 
-    Yes, the arguments passed to the script are case sensative and you may need sudo privilege. 
+  * 1.0.0
+    * Initial Release
 
-#### Usage
-    1.) Make executable: chmod +x Packagezy
-    2.) Generate log: ./Packagezy log
-    3.) Reinstall packages: ./Packagezy install
+## License
+
+This project is licensed under the [GPLv3.0](https://github.com/AzzyB/Packagezy/blob/main/LICENSE) License - see the LICENSE.md file for details
