@@ -3,7 +3,11 @@
 # FILE: Packagezy
 # USAGE: ./packagezy.sh
 #
-# DESC:N/A
+# DESC:
+# Packagezy is a terminal script tool that helps the user log their system packages in a simple
+# way and prepare them for reinstall. The idea behind this is to automate the reinstallation of
+# system packages (and flatpaks) when doing something like upgrading your distro version or
+# changing systems.
 #
 # CREATED: by Azzy on 5/8/2024
 # VERSION: 1.0.0
@@ -117,9 +121,31 @@ function save_packages {
     echo "Packages saved to $FILENAME"
 }
 
+# Function to display A logo
+function display_logo {
+
+echo "           ++++++++            "
+echo "       ++++   +    ++++        "
+echo "     ++      +++       ++      "
+echo "   ++       +++++       ++     "
+echo "  ++       +++++++       ++    "
+echo " ++       ++++ ++++       ++   "
+echo " ++      ++++   ++++       ++  "
+echo " ++     ++++      +++      ++  "
+echo " ++    ++++        +++     ++  "
+echo " ++   ++++          +++    +   "
+echo "  ++ +++++            ++       "
+echo "   ++ +++++++          ++      "
+echo "     ++                  +     "
+echo "       ++++               +    "
+echo "           +++++++             "
+}
+
 # Function to display the menu
 function display_menu {
+
 clear
+
 echo "____________________________________________________________________________________________________"
 echo "|                                                                                                  |"
 echo "|  ______   ______     ______     __  __     ______     ______     ______     ______     __  __    |"
@@ -144,6 +170,9 @@ echo "| 4) Exit                     |                                           
 echo "|__________________________________________________________________________________________________|"
 echo "                                                                                                    "
 }
+
+clear
+display_logo
 
 # Main loop
 while true; do
